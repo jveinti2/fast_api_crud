@@ -9,9 +9,6 @@ from services.post import PostServices
 from schemas.post import Post
 
 post_router = APIRouter()
-
-
-
   
 @post_router.get("/")
 def read_root():
